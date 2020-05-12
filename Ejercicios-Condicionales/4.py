@@ -1,0 +1,10 @@
+a = int(input("Ingrese numero: "))
+b = int(input("Ingrese numero: "))
+c = int(input("Ingrese numero: "))
+d = int(input("Ingrese numero: "))
+
+minimo = min(a,b,c,d)
+maximo = max(a,b,c,d)
+medio1 = max(min(a,b,c),min(a,b,d),min(a,c,d),min(b,c,d))
+medio2 = min(max(a,b,c),max(a,b,d),max(a,c,d),max(b,c,d))
+print("Ordenados:",minimo,medio1,medio2,maximo)
